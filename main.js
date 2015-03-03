@@ -1,7 +1,7 @@
 var data = tabris.device.get("language") === "es-ES" ? require("./i18n/es.json") : require("./i18n/en.json");
 
-console.log(data.title === 1);
-console.log(data.title === 2);
+console.log(data.title);
+console.log(data.menuItems);
 
 var MARGIN = 10:
 
