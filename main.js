@@ -1,4 +1,31 @@
-var data = device.language === "es-ES" ? require("./i18n/es.json") : require("./i18n/en.json");
+var data = {
+  "title": "Menú",
+  "menuItems": [{
+    "name": "Pizza Hawaiana",
+    "description": "Pizza con base de tomate, queso, jamón y piña.",
+    "price": "5.30€"
+  }, {
+    "name": "Pizza Margarita",
+    "description": "Pizza con tomates, queso mozzarella, aceite de oliva y albahaca.",
+    "price": "4.99€"
+  }, {
+    "name": "Pizza Salami",
+    "description": "Pizza con base de tomate, salami, cebolla y queso Emmental.",
+    "price": "5.30€"
+  }, {
+    "name": "Pizza Setas",
+    "description": "Pizza con Setas, queso mozzarella y salsa de tomate.",
+    "price": "6.00€"
+  }, {
+    "name": "Pizza Atún",
+    "description": "Pizza con at√∫n, champiñones, cebolla, ajo y aceitunas negras.",
+    "price": "5.60€"
+  }, {
+    "name": "Pizza Espinacas",
+    "description": "Pizza con espinacas, ajo y tomates.",
+    "price": "7.50€"
+  }]
+};
 
 console.log(data.title);
 console.log(data.menuItems);
