@@ -1,4 +1,6 @@
-var data = tabris.device.get("language") === "es-ES" ? require("./i18n/es.json") : require("./i18n/en.json");
+//var data = tabris.device.get("language") === "es-ES" ? require("./i18n/es.json") : require("./i18n/en.json");
+
+var data = require("./i18n/es.json");
 
 console.log(data.title);
 console.log(data.menuItems);
