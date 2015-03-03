@@ -18,7 +18,7 @@ var data = {
     "price": "6.00€"
   }, {
     "name": "Pizza Atún",
-    "description": "Pizza con at√∫n, champiñones, cebolla, ajo y aceitunas negras.",
+    "description": "Pizza con atún, champiñones, cebolla, ajo y aceitunas negras.",
     "price": "5.60€"
   }, {
     "name": "Pizza Espinacas",
@@ -30,7 +30,7 @@ var data = {
 console.log(data.title);
 console.log(data.menuItems);
 
-var MARGIN = 10:
+var MARGIN = 10;
 
 var page = tabris.create("Page", {
   title: data.title,
@@ -40,7 +40,7 @@ var page = tabris.create("Page", {
 
 tabris.create("CollectionView", {
    items: data.menuItems,
-   itemHeight: 100;
+   itemHeight: 100,
    layoutData: {left: 0, top: 0, right: 0, bottom: 0},
    initializeCell: function(cell) {
       var price = tabris.create("TextView", {
