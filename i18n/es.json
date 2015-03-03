@@ -1,0 +1,28 @@
+{
+  "title": "Menú",
+  "menuItems": [{
+    "name": "Pizza Hawaiana",
+    "description": "Pizza con base de tomate, queso, jamón y piña.",
+    "price": "5.30€"
+  }, {
+    "name": "Pizza Margarita",
+    "description": "Pizza con tomates, queso mozzarella, aceite de oliva y albahaca.",
+    "price": "4.99€"
+  }, {
+    "name": "Pizza Salami",
+    "description": "Pizza con base de tomate, salami, cebolla y queso Emmental.",
+    "price": "5.30€"
+  }, {
+    "name": "Pizza Setas",
+    "description": "Pizza con Setas, queso mozzarella y salsa de tomate.",
+    "price": "6.00€"
+  }, {
+    "name": "Pizza Atún",
+    "description": "Pizza con atún, champiñones, cebolla, ajo y aceitunas negras.",
+    "price": "5.60€"
+  }, {
+    "name": "Pizza Espinacas",
+    "description": "Pizza con espinacas, ajo y tomates.",
+    "price": "7.50€"
+  }]
+}

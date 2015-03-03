@@ -1,0 +1,7 @@
+{
+  "title": "My First Tabris.js App!",
+  "description": "Tabris.js - First PoC!",
+  "category": "PoC",
+  "tabris": "https://tabrisjs.com/downloads/nightly/tabris.min.js",
+  "main": "main.js"
+}
