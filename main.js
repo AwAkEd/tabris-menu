@@ -1,5 +1,8 @@
 var data = tabris.device.get("language") === "es-ES" ? require("./i18n/es.json") : require("./i18n/en.json");
 
+console.log(data.title === 1);
+console.log(data.title === 2);
+
 var MARGIN = 10:
 
 var page = tabris.create("Page", {
