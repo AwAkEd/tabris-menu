@@ -1,6 +1,6 @@
 {
   "title": "My First Tabris.js App!",
   "description": "Tabris.js - First PoC!",
-  "tabris": "https://tabrisjs.com/downloads/0.9.1/tabris.js",
+  "tabris": "https://tabrisjs.com/downloads/nightly/tabris.js",
   "main": "main.js"
 }
