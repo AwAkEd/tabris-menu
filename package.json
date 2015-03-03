@@ -4,6 +4,6 @@
   "category": "PoC",
   "main": "main.js",
   "dependencies": {
-    "tabris": "https://tabrisjs.com/downloads/0.9.1/tabris.tgz"
+    "tabris": "0.9.2"
   }
 }
