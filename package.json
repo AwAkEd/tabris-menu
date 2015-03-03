@@ -2,6 +2,8 @@
   "title": "My First Tabris.js App!",
   "description": "Tabris.js - First PoC!",
   "category": "PoC",
-  "tabris": "https://tabrisjs.com/downloads/nightly/tabris.min.js",
-  "main": "main.js"
+  "main": "main.js",
+  "dependencies": {
+    "tabris": "https://tabrisjs.com/downloads/0.9.1/tabris.tgz"
+  }
 }
